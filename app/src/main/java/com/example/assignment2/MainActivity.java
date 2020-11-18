@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void sendNotification() {
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(MainActivity.this, "My noti")
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(MainActivity.this, "Notification")
                 .setSmallIcon(R.drawable.icon_notification)
                 .setContentTitle("New Notification")
                 .setContentText("Thank you for downloading.")
